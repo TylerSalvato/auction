@@ -1,0 +1,51 @@
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+
+
+
+
+
+
+
+import './navbar.css';
+
+function Navbar() {
+    return (
+        <div className="navbar">
+            <h4>Menu</h4>
+
+        </div>
+    );
+}
+
+export default Navbar;
+
+
+create a copy
+modify the copy
+set the copy
+
+                    
+                    <div className="mb-3">
+
+                        <label htmlFor="formFileMultiple" className="form-label">
+                            Upload Image:
+                            <input
+                                type="file" className="form-control" id="formFileMultiple" multiple
+                                accept="image/*"
+                                onChange={handleInputChange}
+                            />
+                        </label>
+                    </div>

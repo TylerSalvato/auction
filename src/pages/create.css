@@ -1,0 +1,13 @@
+
+.create {
+    text-align: center;
+    color: blue;
+}
+
+.create .form {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+}

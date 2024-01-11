@@ -1,0 +1,23 @@
+.navbar {
+    text-align: center;
+    color: green;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar .user-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-right: 10px;
+    border: 1px solid #fcfcfc;
+    border-radius: 4px;
+    padding: 2px 5px 0 5px;
+}
+
+.navbar .user-info i {
+    font-size: 20px;
+    color: #fafafa;
+}

@@ -1,0 +1,17 @@
+.product .page  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 18%;
+    border: solid 1px ;
+}
+
+.card .form {
+    max-width: 6px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+}
+

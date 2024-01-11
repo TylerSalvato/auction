@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+
+  --primary-color: #FFC966;
+  --primary-color-100: #FFEDCC;
+  --primary-color-500: #FFA600; 
+
+  --secondary-color: #3333FF;
+  --secondary-color-600: #0000CC;
+  --secondary-color-800: #000066; 
+
+  --neutral-color: #e0e0e0;
+
+  --background-color: #1B1B1B;
+
+  --surface-color: #252525;
+
+  --lobster-font: 'Lobster', sans-serif;
+  --sans-font: 'DM Sans', sans-serif;
+
+}
+
+.page {
+  min-height: calc(100vh - 80px);
+}
