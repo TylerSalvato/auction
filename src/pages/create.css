@@ -1,7 +1,8 @@
 
 .create {
     text-align: center;
-    color: blue;
+    color: orange;
+    background-image: url('/public/images/bluesky.jpg') ;
 }
 
 .create .form {

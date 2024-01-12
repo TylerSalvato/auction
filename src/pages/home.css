@@ -1,12 +1,24 @@
 
 .home {
-
-}
-
-.home h1 {
     text-align: center;
-    color: blue;
+    color: orange;
+    background-image: url('/public/images/bluesky.jpg') ; /* Adjust the path based on your project structure */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(52, 152, 219, 0.9);
 }
+
+.home h1 .button {
+    text-align: center;
+    color: orange;
+    max-width: 20%;
+    align-content: top;
+}
+
 
 .home .content {
     display: flex;

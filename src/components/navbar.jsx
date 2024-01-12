@@ -38,17 +38,7 @@ function Navbar() {
                                 Display
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/item">
-                                Item
-                            </Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/show">
-                                Show
-                            </Link>
-                        </li>
+                        
 
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/about">

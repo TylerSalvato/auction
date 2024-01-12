@@ -15,7 +15,11 @@ function Home() {
         <div className="home page">
             <h1>Home</h1>
 
-            <button onClick={save} className="btn btn-primary">Go to page</button>
+            <div className="button">
+
+            <button onClick={save} className="btn btn-primary">Auction List</button>
+
+            </div>
 
             <div className="header">
                 <img src="/images/island.png" alt="island" />

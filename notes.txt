@@ -49,3 +49,127 @@ set the copy
                             />
                         </label>
                     </div>
+
+                                            <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/item">
+                                Item
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link active" aria-current="page" to="/show">
+                                Show
+                            </Link>
+                        </li>
+
+
+
+.home {
+
+}
+
+.home h1 {
+    text-align: center;
+    color: blue;
+}
+
+.home .content {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+@media (max-width: 767px) {
+    .home .content img {
+        /*display: none;*/
+    }
+
+    .home .content {
+        padding: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .home .content p {
+        text-align: left;
+    }
+} 
+
+
+
+.display .card {
+    margin: 8rem;
+    max-width: fit-content;
+}
+
+.display img {
+    max-height: 25rem;
+}
+
+
+.create {
+    text-align: center;
+    color: blue;
+}
+
+.create .form {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.product .page  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 18%;
+    border: solid 1px ;
+}
+
+.card .form {
+    max-width: 6px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+.create {
+    text-align: center;
+    color: blue;
+}
+
+.create .form {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+.create {
+    text-align: center;
+    color: blue;
+}
+
+.create .form {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+.about {
+    text-align: center;
+    color: blue;
+}
+

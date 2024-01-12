@@ -2,4 +2,6 @@
 .about {
     text-align: center;
     color: blue;
+    background-image: url('/public/images/bluesky.jpg') ;
 }
+

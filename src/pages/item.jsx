@@ -7,9 +7,10 @@ function Product() {
         name: "",
         description: "",
         price: "",
-        date: "",
+        bidstep: "",
         category: "",
         image: "",
+        auction: "123",
     });
 
     function handleInputChange(e) {
@@ -40,7 +41,7 @@ function Product() {
     }
 
     return (
-        <div className="product page">
+        <div className="create product page">
             <h2>Get Started</h2>
 
             <div className="form card">
@@ -59,12 +60,12 @@ function Product() {
 
                     <div className="input-group input-group-lg">
                         <label className="form-label"><span className="input-group-text" id="inputGroup-sizing-lg">Item Starting Price:</span></label>
-                        <input name="price" onChange={handleInputChange} type="number" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
+                        <input name="price" onChange={handleInputChange} type="number" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder='$' />
                     </div>
 
-                    <div className="input-group input-group-lg">
-                        <label className="form-label"><span className="input-group-text" id="inputGroup-sizing-lg">Item End Date:</span></label>
-                        <input name="date" onChange={handleInputChange} type="date" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
+                    <div className="input-group mb-3 input-group-lg">
+                        <label className="form-label"><span className="input-group-text" id="inputGroup-sizing-lg">Bid Increment:</span></label>
+                        <input name="bidstep" onChange={handleInputChange} type="number" className="form-control" aria-label="Sizing example input Amount (to the nearest dollar)" aria-describedby="inputGroup-sizing-lg" placeholder='$' />
                     </div>
 
                     <div className="input-group input-group-lg">
@@ -72,23 +73,15 @@ function Product() {
                         <input name="category" onChange={handleInputChange} type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" />
                     </div>
 
-
-                    <div className="mb-3">
-
-                        <label htmlFor="formFileMultiple" className="form-label">
-                            Upload Image:
-                            <input
-                                type="file" className="form-control" id="formFileMultiple" multiple
-                                accept="image/*"
-                                onChange={handleInputChange}
-                            />
-                        </label>
-                    </div>
-
                     <div>
-                        <button onClick={saveProduct} className="btn btn-primary">Save</button>
-                    </div>
+                    <label className="form-label">Upload Image</label>
+                    <input name="image" onChange={handleInputChange} type="file" className="form-control" />
+                </div>
 
+                <div id="liveAlertPlaceholder">
+                    <button type="button" class="btn btn-primary" id="liveAlertBtn" onClick={saveProduct} className="btn btn-primary">Save</button>
+                </div>
+                
                 </ul>
 
             </div>

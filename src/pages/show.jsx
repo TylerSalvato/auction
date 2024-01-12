@@ -5,7 +5,7 @@ import './show.css';
 function Show ({ product }) {
     return (
 
-        <div className="show page card">
+        <div className="create card form">
             <img src={product.image} className="card-img-to rounded mx-auto d-block img-fluid img-thumbnail" alt="beach"/>
                 <div className="card-body">
                     <h5 className="card-title">{product.name}</h5>
@@ -29,7 +29,7 @@ function Prize() {
     const [prizes, setPrizes] = useState([]);
 
     useEffect(function () {
-        const prizesJson = localStorage.getItem('prizeItems');
+        const prizesJson = localStorage.getItem('productItems');
         if (prizesJson) {
             const prizesObj = JSON.parse(prizesJson); // array
             setPrizes(prizesObj);
