@@ -13,29 +13,41 @@ function Home() {
 
     return (
         <div className="home page">
-            <h1>Home</h1>
+            <h1>Welcome!</h1>
+            <h3>Checkout our Auctions!</h3>
+            <h5>Post Auctions or Start Bidding!</h5>
+            <p>You can post items that you want to sell through bidding.</p>
+            <p>You can search and bid on items that you are interested in.
+            </p>
 
             <div className="button">
 
-            <button onClick={save} className="btn btn-primary">Auction List</button>
+                <button onClick={save} className="btn btn-primary">Auction List</button>
 
             </div>
 
-            <div className="header">
-                <img src="/images/island.png" alt="island" />
-            </div>
+            <div className="condense">
 
-            <div className="content">
-                <img src="/images/space.png" alt="space" />
-                <div>
+                <div className="header">
 
-                    <h3>Lorem, ipsum</h3>
+                    <img src="/images/gallery.jpg" className="img-fluid img-thumbnail rounded " alt="..." />
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptate architecto consequuntur quaerat corporis voluptatum nisi quasi, quis ea tempore accusantium minima saepe impedit recusandae, maiores perferendis asperiores iste ipsum!</p>
                 </div>
+
+                <div className="content">
+
+                    <img src="/images/gavel.jpg" className="img-fluid img-thumbnail rounded " alt="..." />
+
+                </div>
+
+
+
             </div>
+
 
         </div>
+
+
     );
 }
 

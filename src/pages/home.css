@@ -1,45 +1,57 @@
-
 .home {
     text-align: center;
-    color: orange;
-    background-image: url('/public/images/bluesky.jpg') ; /* Adjust the path based on your project structure */
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(52, 152, 219, 0.9);
+    background-color: rgba(0, 0, 255, 0.164);
 }
 
-.home h1 .button {
+.home h1, .home h3, .home h5, .home p {
+
+    color: #fff;
+}
+
+.button {
     text-align: center;
-    color: orange;
-    max-width: 20%;
-    align-content: top;
+    margin-top: 20px;
 }
 
+.button button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-.home .content {
+.button button:hover {
+    background-color: #217dbb;
+}
+
+.condense {
     display: flex;
-    text-align: left;
+    max-width: 70%;
+    justify-content: space-between;
     align-items: center;
-    max-width: 900px;
-    margin: 10px auto;
+    margin-top: 20px;
+}
+
+.content {
+    max-block-size: 70%;
+}
+
+.condense img {
+    max-width: 48%;
+    border-radius: 8px;
 }
 
 @media (max-width: 767px) {
-    .home .content img {
-        /*display: none;*/
+    .condense img {
+        width: 100%;
+        margin-bottom: 20px;
     }
-
-    .home .content {
-        padding: 20px;
-        display: block;
-        text-align: center;
-    }
-
-    .home .content p {
-        text-align: left;
-    }
-} 
+}

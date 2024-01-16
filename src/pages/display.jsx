@@ -6,9 +6,12 @@ import { Link } from "react-router-dom";
 function Display({ auction }) {
     return (
 
-        <div className="create card form">
-            <img src="..." className="card-img-to rounded mx-auto d-block img-fluid img-thumbnail" alt="beach"/>
+        <div className="display fit">
+        <div className="card">
+            <img src={auction.image} alt="..." className="card-img-top"/>
+
                 <div className="card-body">
+                    
                     <h5 className="card-title">{auction.title}</h5>
                     <p className="card-text">{auction.goal}</p>
                 </div>
@@ -26,7 +29,7 @@ function Display({ auction }) {
                     <a href="#" className="card-link">Another link</a>
                 </div>
         </div>
-
+        </div>
     );
 }
 
@@ -42,7 +45,7 @@ function Auction() {
     }, []);
 
     return (
-        <div className="display page">
+        <div className="display fit page">
             <h2>Auction</h2>
             {auctions.map(auction => <Display auction={auction} />)}
         </div>

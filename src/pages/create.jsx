@@ -94,6 +94,12 @@ function Create() {
                     <button type="button" class="btn btn-primary" id="liveAlertBtn" onClick={saveAuction} className="btn btn-primary">Save</button>
                 </div>
 
+                <div>
+                <Link className="nav-link active" aria-current="page" to="/item">
+                                Add Item
+                            </Link>
+                            </div>
+
             </div>
 
             <div>

@@ -61,14 +61,13 @@
 .page {
   min-height: calc(100vh - 80px);
   text-align: center;
-  color: orange;
-  background-image: url('/public/images/bluesky.jpg') ; /* Adjust the path based on your project structure */
+  background-image: url(/public/images/lightfadebg.jpg);
+  background-color: rgba(rgba(255, 0, 0, 0), rgba(0, 128, 0, 0), rgba(0, 0, 255, 0), alpha);
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(52, 152, 219, 0.9);
 
 }

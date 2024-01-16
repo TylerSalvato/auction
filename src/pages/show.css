@@ -1,13 +1,26 @@
-
-.create {
-    text-align: center;
-    color: blue;
+.show {
+    align-items: center;
+    justify-content: center;
 }
 
-.create .form {
-    max-width: 600px;
-    text-align: center;
-    margin: auto;
-    border: 1px solid;
-    padding: 10px;
+.show .card {
+    margin: 20px;
+    max-width: 18rem;
+    flex-grow: 1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.show .card:hover {
+    transform: scale(1.05);
+}
+
+.show img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.style {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

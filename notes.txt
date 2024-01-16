@@ -173,3 +173,93 @@ set the copy
     color: blue;
 }
 
+
+.home {
+    text-align: top center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top center;
+    background-color: rgba(0, 0, 255, 0.164);
+}
+
+.home h1 .button {
+    text-align: center;
+    
+    max-width: 20%;
+    align-content: top;
+}
+
+.condense {
+    display: flex;
+    max-width: 70%;
+    max-height: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content img {
+    display: flex;
+    text-align: right;
+    align-items: right;
+    background-color: rgba(rgba(255, 0, 0, 0), rgba(0, 128, 0, 0), rgba(0, 0, 255, 0), alpha);
+
+    margin: 10px auto;
+}
+
+.header img {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-color: rgba(rgba(255, 0, 0, 0), rgba(0, 128, 0, 0), rgba(0, 0, 255, 0), alpha);
+
+    margin: 10px auto;
+}
+
+@media (max-width: 767px) {
+    .home .content img {
+        /*display: none;*/
+    }
+
+    .home .content {
+        padding: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .home .content p {
+        text-align: left;
+    }
+} 
+
+.create {
+    text-align: center;
+}
+
+.create .form {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+
+
+.display .card {
+    margin: 8rem;
+    max-width: fit-content;
+}
+
+.display img {
+    max-height: 25rem;
+}
+
+.fit {
+    display: flex;
+    flex-direction: row;
+}
+

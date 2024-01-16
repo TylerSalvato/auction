@@ -5,7 +5,10 @@ import './show.css';
 function Show ({ product }) {
     return (
 
-        <div className="create card form">
+        <div className="show style page">
+
+        
+        <div className="card">
             <img src={product.image} className="card-img-to rounded mx-auto d-block img-fluid img-thumbnail" alt="beach"/>
                 <div className="card-body">
                     <h5 className="card-title">{product.name}</h5>
@@ -20,6 +23,7 @@ function Show ({ product }) {
                     <a href="#" className="card-link">Card link</a>
                     <a href="#" className="card-link">Another link</a>
                 </div>
+        </div>
         </div>
 
     );
@@ -37,7 +41,7 @@ function Prize() {
     }, []);
 
     return (
-        <div className="display page">
+        <div className="show style page">
             <h2>Prize</h2>
             {prizes.map(prize => <Show product={prize} />)}
         </div>
